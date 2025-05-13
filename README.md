@@ -1,6 +1,5 @@
 # kafka-SSL-architecture-on-aws
 
-# kafka-architecture-with-ssl
 This repo has all the code related to kafka cluster setup using docker and compose with SSL/TLS/HTTPS
 
 ![image](https://github.com/iamrikie/kafka-SSL-architecture_on_aws/assets/66196388/fc3abeb4-6599-4f57-8fb1-202a01954e1e)
