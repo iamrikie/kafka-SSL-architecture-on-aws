@@ -24,15 +24,15 @@ Now, once you have a certificate Authority, Kafka, keystore, truststore, the ver
 1. Import CA.crt into truststore,
 
 2. Once that is done, using the keystore as an input, you need to create a file called Kafka unsigned.crt certificate because this is just
-created using keystore. it is not yet signed by the cerificate Authority.
+created using the keystore. it is not yet signed by the cerificate Authority.
 
 3. so now to sign this from a certificate authority, you need to send this file(Kafka unsigned.crt) to CA, CA in turn will use its (ca.key)private key and (ca.crt)public key along with file(Kafka unsigned.crt) and produce a signed certificate file. Now you have a signed certificate(kafka signed.crt) which is ready to be imported into your Keystore.
 
-4. But before importing into keystore, all you need to do is to import ca.crt into the keystore.
+4. But before importing into the keystore, all you need to do is to import ca.crt into the keystore.
 
 5. You can import signed certificate(kafka signed.crt), which you have got from CA, into your keystore.
 
 so now by this time you have a keystore and Truststore ready, all you need to do is to bootstrap your Kafka and provide the location for Keystore and truststore.
-this defines the whole setup.
+This defines the whole setup.
 
 All the above steps should be done inside the Kafka broker server only.
