@@ -14,12 +14,12 @@ CA(CERTIFICATE AUTHORITY)
 - create ca files
 - ca.key(private key)
 - ca.crt(public key)
-- private key has to be within this boundary so cannot be shared to anyone else, rather like a certificate file. it's okay to distribute public key.
+- private key has to be within this boundary so cannot be shared to anyone else, rather like a certificate file. It's okay to distribute the public key.
 
 Keystore and Truststore:
 ------------------------
-Next thing we need to create a keystore and a truststore.
-now once you have certificate Authority, kafka, keystore, truststore, the very first step is to import the ca.crt into your truststore
+Next, we need to create a keystore and a truststore.
+Now once you have a certificate Authority, Kafka, keystore, truststore, the very first step is to import the ca.crt into your truststore
 
 1. import ca.crt into truststore,
 
