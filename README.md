@@ -35,4 +35,4 @@ created using keystore. it is not yet signed by the cerificate Authority.
 so now by this time you have a keystore and Truststore ready, all you need to do is to bootstrap your Kafka and provide the location for Keystore and truststore.
 this defines the whole setup.
 
-All the above steps should be done inside kafka broker server only.
+All the above steps should be done inside the Kafka broker server only.
