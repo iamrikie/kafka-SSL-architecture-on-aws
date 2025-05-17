@@ -11,10 +11,10 @@ Take one Kafka server and do the following steps
 
 CA(CERTIFICATE AUTHORITY)
 -------------------------
-- create ca files
+- Create CA files
 - ca.key(private key)
 - ca.crt(public key)
-- private key has to be within this boundary so cannot be shared to anyone else, rather like a certificate file. It's okay to distribute the public key.
+- The private key must be within this boundary, so it cannot be shared with anyone else, rather like a certificate file. It's okay to distribute the public key.
 
 Keystore and Truststore:
 ------------------------
